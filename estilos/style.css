@@ -34,6 +34,13 @@ section#login{
     height: 500px;
     border-radius: 20px;
 }
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
 div#imagem{
     background-image: url(../imagens/tela-login.jpg);
     background-repeat: no-repeat;
@@ -45,4 +52,19 @@ div#imagem{
 div#formulario{
     text-align: center;
     color: white;
+}
+.campo > i{
+    display: block;
+    background-color: var(--cor0);
+    width: 90%;
+    height: 30px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: left;
+}
+.campo > input{
+    
+}
+div.campo > label{
+    display: none;
 }
