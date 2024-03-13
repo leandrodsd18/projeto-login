@@ -35,7 +35,7 @@ section#login{
     border-radius: 20px;
 }
 div#imagem{
-    background-image: url(/imagens/tela-login.jpg);
+    background-image: url(../imagens/tela-login.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
