@@ -18,20 +18,20 @@
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar o seu ambiente!</p>
-                <form action="login.php" method="post">
+                <form action="cadastro.php" method="post" autocomplete="on">
                     <div class="campo">
                         <i class="material-symbols-outlined">person</i>
-                        <input type="email" name="usuario" id="iemail">
+                        <input type="email" name="usuario" id="iemail" placeholder="seu email" autocomplete="email" required maxlength="30">
                         <label for="iemail">Login</label>
                     </div>
                     <div class="campo">
                         <i class="material-symbols-outlined">Vpn_Key</i>
-                        <input type="password" name="senha" id="isenha">
+                        <input type="password" name="senha" id="isenha" placeholder="sua senha" autocomplete="current-password" required minlength="8" maxlength="16">
                         <label for="isenha">Senha</label>
                     </div>
                     <div>
                         <input type="submit" value="Entrar">
-                        <a href="#">Esqueci minha senha</a>
+                        <a class="botao" href="#">Esqueci minha senha</a>
                     </div>
                 </form>
             </div>
